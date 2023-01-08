@@ -137,7 +137,7 @@ header .container img{
     color: #000;
     border-radius: 10px;
     padding: 10px;
-    transform: rotateZ(15deg);
+  
 }
 .main-section .container .info:hover{
     font-weight: bold;
@@ -419,13 +419,19 @@ header .container img{
 }
 }
 
-/*media query of the 360 width */
+/*media query of the 378 width */
 
-@media(max-width:360px){
+@media(max-width:378px){
 
     
     ::-webkit-scrollbar{
         width: 20px;
+    }
+    nav{
+        display: block;
+        justify-content: flex-start;
+        height: 20vh;
+        text-align: center;
     }
         .container{
             width: 90%;
@@ -434,7 +440,7 @@ header .container img{
         }
     header .container{
         display: block;
-        margin-top: 10px;
+        margin-top: 35px;
        padding: 10px;
     } 
     
