@@ -1263,6 +1263,10 @@ ul.social_icont li a {
      margin-bottom: 19px;
      margin-top: 20px;
 }
+.footer li i a{
+     color: #fff;
+     text-decoration: none;
+}
 
 ul.location_icon {
      padding-top: 12px;
